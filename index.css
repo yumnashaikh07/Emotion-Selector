@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.container {
+  flex-direction: row;
+  } 
+
+@media only screen and (max-width: 768px) {
+    .container {
+        background-color: rgb(108, 89, 155);
+        flex-direction: column;
+    }
+  }
+@media only screen and (min-width: 768px)and(max-width:991px){
+    .container {
+        background-color: rgb(72, 100, 226);
+        flex-direction: column;
+    } 
+  }
+@media only screen and (min-width: 992px)and(max-width: 1023px){
+    .container {
+        background-color: rgb(66, 7, 214);
+        flex-direction: column;}}
+
+
+@media only screen and (min-width: 992px)and(max-width: 1023px){
+    .container {
+        background-color: rgb(13, 3, 71);
+        flex-direction: column;}}

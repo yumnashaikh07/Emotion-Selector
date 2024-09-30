@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+<script src="index.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body class="flex items-center justify-center h-screen border-4 bg-blue-300"></body>
+<div class="bg-white p-7 border-8 border-blue-700 rounded-lg shadow-lg text-center w-full max-w-md mx-4">
+            <h1 class="text-3xl  font-mono font-semibold mb-4">I'M FEELING ... !</h1>
+<button id="emotionButton" class="main-button text-center bg-blue-700 text-white py-3 px-5 rounded-xl hover:bg-blue-300 transition">Choose Emotion</button>
+    <div id="emotionList" class="emotion-list hidden mt-2 p-1">
+        <div class="block max-w-[55%] mx-auto mb-4 "></div>
+        <button class="emotion w-full font-mono text-slate-900 border border-gray-900 bg-gray-200 py-3 rounded mb-2 hover:bg-gray-300" data-emotion="angry">Angry</button>
+        <button class="emotion w-full font-mono text-slate-900 border border-gray-900 bg-gray-200 py-3 rounded mb-2 hover:bg-gray-300" data-emotion="contentment">Contentment </button>
+        <button class="emotion w-full font-mono text-slate-900 border border-gray-900 bg-gray-200 py-3 rounded mb-2 hover:bg-gray-300" data-emotion="disappointment">Disappointment</button>
+        <button class="emotion w-full font-mono text-slate-900 border border-gray-900 bg-gray-200 py-3 rounded mb-2 hover:bg-gray-300" data-emotion="gratitude">Gratitutde</button>
+        <button class="emotion w-full font-mono text-slate-900 border border-gray-900 bg-gray-200 py-3 rounded mb-2 hover:bg-gray-300" data-emotion="happy">Happy</button>
+        <button class="emotion w-full font-mono text-slate-900 border border-gray-900 bg-gray-200 py-3 rounded mb-2 hover:bg-gray-300" data-emotion="love">Love</button>
+        <button class="emotion w-full font-mono text-slate-900 border border-gray-900 bg-gray-200 py-3 rounded mb-2 hover:bg-gray-300" data-emotion="sad">Sad</button>
+        </div>
+    <div id="versesDisplay" class="verses-display font-serif mt-5 p-5 border-2 border-gray-900 rounded"></div>
+</div>
+
+</body>
+</html>
